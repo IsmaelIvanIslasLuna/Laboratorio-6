@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Página 1</title>
+    <style>
+		nav {
+			background-color: #333;
+			padding: 10px;
+		}nav ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	nav li {
+		margin: 0 10px;
+	}
+
+	nav a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 18px;
+		padding: 5px 10px;
+		border-radius: 5px;
+		border: 1px solid #fff;
+		transition: all 0.3s ease;
+	}
+
+	nav a:hover {
+		background-color: #fff;
+		color: #333;
+	}
+</style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a class="active" href="Pagina1.html">Página 1</a></li>
+				<li><a href="pagina2.html">Página 2</a></li>
+				<li><a href="pagina3.html">Página 3</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="https://image.tmdb.org/t/p/original/sLaUolq9dx8pLypwv6M3YPXkUX1.jpg" alt="Breaking Bad">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="https://4.bp.blogspot.com/-f4-Pe-Pyduk/WPQK8YbSxvI/AAAAAAAAOIQ/n-3M7ECc1tEbiYQKk6ZDyNFAfM-79RlSgCLcB/s1600/Shooter%2BTv%2BSpoiler%2BAlert%2BCriticia.jpg" alt="Shooter">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="http://wallpapershdnow.com/images/tv-shows/medic/dr-house/dr-house-wallpaper-20.jpg" alt="Dr House">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Mis series favoritas
+          </button>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <h5>Breaking Bad</h5>
+              <p>Serie de TV (2008-2013). 5 temporadas. 62 episodios. Tras cumplir 50 años, Walter White (Bryan Cranston), un profesor de química de un instituto de Albuquerque, Nuevo México, se entera de que tiene un cáncer de pulmón incurable. Casado con Skyler (Anna Gunn) y con un hijo discapacitado (RJ Mitte), la brutal noticia lo impulsa a dar un drástico cambio a su vida: decide, con la ayuda de un antiguo alumno (Aaron Paul), fabricar anfetaminas y ponerlas a la venta. Lo que pretende es liberar a su familia de problemas económicos cuando se produzca el fatal desenlace.</p>
+              <h5>Shooter</h5>
+              <p>Shooter es una serie dramática de televisión estadounidense, basada en la novela Point of Impact por Stephen Hunter, y la película del mismo nombre de 2007. La trama se centra en un tirador estadounidense entrenado en contrainteligencia y en el funcionamiento del gobierno EE. UU.</p>
+              <h5>Dr House</h5>
+              <p>Serie de TV (2004-2012). 8 temporadas. 177 episodios. Gregory House, el mejor médico del hospital, es un hombre antipático que está especializado en el diagnóstico de enfermedades. Su carácter extravagante, su rebeldía y su honradez con los pacientes y su equipo lo convierten en una persona única. Trata de evitar la relación con los pacientes, porque lo que le interesa por encima de todo es la investigación de las enfermedades. Es además adicto a los calmantes y a las series de hospitales.</p>
+            </div>
+          </div>
+	</main>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@2.9.3/dist/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
